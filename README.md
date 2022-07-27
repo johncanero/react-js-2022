@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+A Youtube Video: React JS Full Course 2022 | Build an App and Master React in 1 Hour [Guide for Reference] - John Cañero
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
