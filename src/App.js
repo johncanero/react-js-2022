@@ -1,25 +1,24 @@
 import './App.css';
 
+// COMPONENT
+const Person = () => {
+  return (
+    <>
+      <h1>Name: John</h1>
+      <h2>Last Name: Cañero</h2>
+      <h2>Age: 23</h2>
+    </>
+  )
+}
+
+
+// TRANSFER COMPONENT TO <[variable] />
 const App = () => {
   const name = 'Jam';
 
   return (
     <div className="App">
-      <h1>Hello, {2+2}!</h1>
-
-      {name ? (
-
-        <>
-          <h1>{name}</h1>
-        </>
-
-      ): (
-
-        <>
-        <h1>test</h1>
-        <h2>There is no name.</h2>
-        </>
-      )}
+      <Person />
     </div>
   );
 }
