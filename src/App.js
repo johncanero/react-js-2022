@@ -19,6 +19,8 @@ const movie1 = {
   Poster: "N/A",
 };
 
+
+// Function
 const App = () => {
   const [movies, setMovies] = useState([]);
 
@@ -31,11 +33,13 @@ const App = () => {
 
     setMovies(data.Search);
   };
+  
 
   useEffect(() => {
     searchMovies("Spiderman");
   }, []);
 
+  // Content
   return (
     <div className="app">
       <h1>MovieLand</h1>
