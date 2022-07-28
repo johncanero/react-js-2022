@@ -39,11 +39,12 @@ const App = () => {
     searchMovies("Spiderman");
   }, []);
 
-  // Content
+  // Content 
   return (
     <div className="app">
       <h1>MovieLand</h1>
 
+      {/* search */}
       <div className="search">
         <input
           placeholder="Search for movies"
@@ -57,7 +58,8 @@ const App = () => {
             onClick={() => searchMovies(searchTerm)}
          />
       </div>
-
+      
+      {/* movies (MovieCard) */}
       {movies?.length > 0 ? (
         <div className="container">
           {movies.map((movie) => (
